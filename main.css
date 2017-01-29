@@ -1,0 +1,48 @@
+* {
+    box-sizing: border-box;
+}
+
+h1{
+	
+	text-align: center;
+	color: #424242;
+	font-size: 1.2em;
+}
+
+body{
+    margin: 0 auto;
+    width: 100vw;
+    height: 100vh;
+    max-width: 1920px;
+    max-height: 1080px;
+    background: url('img/2.jpg') no-repeat fixed center;  
+    font-family: Roboto,Arial,sans-serif;
+    padding-top: 20px;    
+}
+.mainDiv{
+	width: 60%;
+	height: 250px;
+	margin: 0 auto;
+	background-color: white;	
+	border-radius: 10px;
+}
+
+.controller{
+	padding: 10px;
+	text-align: center;
+}
+ .input{	
+	font-size: 14px;
+	width: 60%;
+
+}
+.myButton{
+	margin-top: 10px;
+	font-size: 12px;
+}
+.controller p{
+	font-size: 18px;
+	color: red;
+	font-weight: bold;
+
+}
